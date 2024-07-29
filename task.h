@@ -3,8 +3,7 @@
 class Task
 {
 public:
-	Task();
-	~Task();
+	virtual void run() = 0;
 private:
 };
 #endif TASK_HEADER
